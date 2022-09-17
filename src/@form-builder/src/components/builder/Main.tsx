@@ -19,6 +19,8 @@ import "prismjs/components/prism-json";
 import "prismjs/themes/prism.css";
 import { CodeEditor } from "../forms";
 import { dataWizards } from "@form-builder/src/utils";
+import { RiBookOpenFill, RiGithubFill } from "react-icons/ri";
+import Link from "next/link";
 
 const MainBuilder = (): JSX.Element => {
     const { scheme, setScheme } = useFormContextBuilder<FormsShapes>();
@@ -31,7 +33,7 @@ const MainBuilder = (): JSX.Element => {
             colorScheme="blackAlpha"
             w="full"
         >
-            <HStack alignItems="center" p={4} bg="white">
+            <HStack alignItems="center" py={4} px={8} bg="white">
                 <Stack flex={1}>
                     <Text fontSize="xl" fontWeight="bold" mb={0}>
                         Form Builder
@@ -58,6 +60,22 @@ const MainBuilder = (): JSX.Element => {
                     <Tab>Preview</Tab>
                     <Tab>Schema</Tab>
                 </TabList>
+                <Link
+                    href="https://github.com/egigagah/formik-builder-examples"
+                    target="_blank"
+                >
+                    <a target="_blank">
+                        <RiGithubFill size={30} color="grey" />
+                    </a>
+                </Link>
+                <Link
+                    href="https://github.com/egigagah/formik-builder-examples/blob/main/src/%40form-builder/README.MD"
+                    target="_blank"
+                >
+                    <a target="_blank">
+                        <RiBookOpenFill size={30} color="grey" />
+                    </a>
+                </Link>
             </HStack>
             <TabPanels bg="gray.50" p={0} m={0}>
                 <TabPanel p={0}>

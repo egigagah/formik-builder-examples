@@ -27,7 +27,7 @@ This is example for using my form builder. Build on top next js + chakra ui
 
 Form Builder is my experimental library that will be automatically create form from object scheme using Yup & Formik.
 
-[Go To Documentation](https://github.com/egigagah/his-ui/blob/main/src/@form-builder/README.MD)
+[Go To Documentation](https://github.com/egigagah/formik-builder-examples/blob/main/src/%40form-builder/README.MD)
 
 ## **Chakra UI**
 

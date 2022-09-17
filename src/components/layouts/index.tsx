@@ -1,5 +1,7 @@
-import { Flex, Stack } from "@chakra-ui/react";
+import { Flex, HStack, IconButton, Stack } from "@chakra-ui/react";
 import { PropsWithChildren } from "react";
+import Link from "next/link";
+import { RiGithubFill } from "react-icons/ri";
 
 export default function Layouts({ children }: PropsWithChildren): JSX.Element {
     return (
