@@ -1,0 +1,15 @@
+{
+    "hello": "Hello",
+    "greet": "Hello, {{name}}!",
+    "logo-here": "Logo Here",
+    "signin": "Sign In",
+    "signout": "Sign Out",
+    "language": {
+        "id": "🇹🇷 Indonesia",
+        "en": "🇺🇸 English",
+        "short": {
+            "id": "🇮🇩 ID",
+            "en": "🇺🇸 EN"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "hello": "Halo",
+    "greet": "Halo, {{name}}!",
+    "logo-here": "Disini Logo",
+    "signin": "Masuk",
+    "signout": "Keluar",
+    "language": {
+        "id": "🇮🇩 Indonesia",
+        "en": "🇺🇸 Inggris",
+        "short": {
+            "id": "🇮🇩 ID",
+            "en": "🇺🇸 EN"
+        }
+    }
+}
